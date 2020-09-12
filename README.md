@@ -8,4 +8,4 @@ initializing remote repo
 pushing changes to master
 
 
-since we dont attempt that directly irl, I am creating a branch called development, add some files, and generate a PR
+since we dont attempt that directly irl, I am creating a branch called development, add learning.txt, and generate a PR
