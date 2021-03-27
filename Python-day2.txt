@@ -93,3 +93,15 @@ add an f to the beginning of your sentence
 
 print ( f"my name is {c}, i am {b) meters tall and my weight is {a} kg")
 this will take care of all type casting required
+
+
+round() may not give "correct to n decimal places" if there is a clean division i.e. 55 will come as 55.0 even if you round off to 2 decimals
+so in such cases use format function
+works in strings.
+print(round(6/3,2))->2.0
+print("{:.2f}".format(6/3))->2.00
+
+here : is format
+. is decimal
+2 is roundoff value
+f stands for fixed-point number
