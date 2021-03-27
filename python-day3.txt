@@ -1,0 +1,56 @@
+Python-Day3
+
+Conditional statements,logical operators,code blocks and scope
+
+1> if/else
+
+if condition(here condition need not be in brackets):
+ do stuff
+else:
+ do stuff
+
+Note that colons are important.
+
+2>Nested if/else
+
+if condition:
+ if another condition:
+   do stuff
+ else:
+   do stuff
+else:
+  do stuff
+
+3> if/elif/else
+
+if condition:
+ do stuff
+elif condition:
+ do stuff
+else:
+ do stuff
+
+4> Multiple if
+
+if condition:
+ do stuff
+if condition:
+ do stuff
+if condition:
+ do stuff
+
+
+Logical operators
+
+AND
+OR
+NOT
+
+count() > counts a particular character occurence in a string.
+usage: string.count("t)-> this will look for occurences of t
+
+lower() > converts capital to small letters
+string.lower()
+
+
+for multiblock strings use ('''  ''')
