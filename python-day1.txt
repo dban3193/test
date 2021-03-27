@@ -1,0 +1,27 @@
+Python-day 1
+
+print("") -> treats content like a text inside quotes
+print(""+"")-> concatenates stuff
+print(""'+'"")-> treats entirety as a text including the +
+
+python cares about indentation, so always start your line without any gap
+
+print("A"\n"B")-> pints A and B in successive lines
+
+
+input("")->asks the question to user based on text inside quotes and waits for a input
+once provided that entire function is converted to plain output
+
+eg: print("Hello "+input('What is your name')+ "!")
+this first takes input function, asks what is your name, on getting A as input finally prints Hello A!
+
+len() ->prints the length of the string passed to it.
+eg: ask for name and print it's char size
+
+print(len(input("what is your name ")))
+this asks what is your name, input comes as Rose,len function converts len(Rose) to 4 and finally print function prints 4.
+
+above could be simplified as:
+name=input("what is your name ")
+length=len(name)
+print(length)

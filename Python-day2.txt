@@ -1,0 +1,95 @@
+Datatypes in Python
+
+To get  a character in string using index location
+
+print("Delilah"[5])
+will print "a"
+
+
+1>Integer
+
+print("123" + "234") -> 123234
+
+print(123 + 234)-> 357
+
+In python, large numbers are denoted as below
+
+normal way : 12,35,256 (12lac35thou2hun5fifty6)
+python way: 12_35_256 ~ 1235256
+
+2>Float
+decimal numbers
+a=float(123) a is now a float called 123
+
+print(123+ float("100.2"))
+converst string 100.2 to float, adds it to 123 and prints final output
+
+3>Boolean
+True or False as values(Capital first letter)
+
+type() tells us the type of variable(integer/string/boolean etc)
+
+num_char=len(input("what is name"))
+ultimately num_char gets an integer value
+
+ str(num_char)=new_num_char
+num_char integer value is now converted to string
+
+print("your name has " + new_num_char + "characters")
+for above line to work, new_num_char had to be a string so that concatenation works. Hence str function was used.
+
+print("there are " + str(36) + "Shaoilin Temples")
+there are 36 shaoilin temples
+
+
+
+
+
+
+
+Mathematical operators
++ - integer+float=float
+-
+*
+/ - even if division is performed on integers, output will always be float. infact print(4/2) inspite of a clean division provides output as 2.0
+To make sure division of integers give an integer use //
+print(4//2)-> 2
+print(4/2)->2.0
+
+exponential stuff = 4 **3 = 64 (4 to the pwer 3)
+
+follows PEMDAS rule for priority(BODMAS as child)
+P=parenthesis
+E=exponential
+M=multiplication
+D=division
+A=addition
+S=subtraction
+
+
+Rounding numbers
+
+round() function is used
+
+print(round(8/3)) => 3
+print(round(8/3,2)) => 2.67 (2 here means 2 decimal places round needed)
+
+
+score=score+1  OR score += 1
+
+
+F-strings
+
+You dont have to use str(),int(),float() for any conversions further
+instead use a generalised fstring, and add your variable(whatever type) inside curly braces
+python decodes everything for you as string
+
+eg: 
+my weight is 50=a
+my height is 2.2=b
+my name is Debyani=c
+
+add an f to the beginning of your sentence
+
+print ( f"my name is {c}, i am {b) meters tall and my weight is {a} kg")
+this will take care of all type casting required
