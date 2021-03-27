@@ -6,5 +6,5 @@ dAY 1- Print(),input(),len() and concept of concatenation
 
 day 2- str(),int(),float(),bool(), finding string characters using indexes, round(),mathematical operators using PEMDAS,exponential symbol(**),F strings, format()
 
-day 3-
+day 3-Conditional statements,logical operators,code blocks,lower() and count() functions
 
