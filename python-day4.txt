@@ -1,0 +1,98 @@
+Day-4
+
+Randomisation and Python lists
+
+Randomisation means getting random outputs to queries asked. Useful in mini games
+
+Python used Mersenne Twister as a random numer generator
+
+askpython.com has modules for random number generator which have functions to be used.
+eg: randint(a,b)
+generates a random integer between a and b
+to use above function, import module called random
+
+Module is responsible a specific code working.
+
+
+for float random numbers between 0 and 1, here it is exclusive of 1 i.e. between 0 to 0.999999
+
+random()
+
+to invoke any of these functions
+import random
+
+random.randint(3,7)->integer between 3 and 7
+random.random()->float
+
+
+LISTS
+It is a type of datastructure
+similar to arrays.But mixed datatypes are allowed
+
+eg: grocery=["fruits","vegetables","eggs"]
+now to get fruits print(grocery[0])
+but to get last unit in a long list use print(grocery[-1])
+
+To add a new item AT THE END use append function
+grocery.append("name")
+
+to add multiple new items use extend
+grocery.extend("name","rollno","class")
+
+insert() will add an item at a given position.
+grocery.insert(positionindex,item)
+
+*split() function splits an incoming list based on a delimiter
+eg: names=input("give me few names separated by ,")
+create a list called name_list
+name_list=names.split(",")
+
+choice() function lets you choose a random item from a list of items.
+Here you dont have to use randint() for index randomness
+
+person_i_kiss=random.choice(name_list)
+
+
+CONCEPT OF NESTED LISTS
+
+IndexError: similar to array index outofbound exception
+
+
+Example: alist containing both fruits and vegetables called stuff
+
+stuff=["apple", "mango", "potato","tomato","peach","kale"]
+you can split above as fruits and veggies
+fruits=["apple","mango","peach"]
+vegetables=["potato","tomato","kale"]
+t
+hen stuff can finally be written as
+stuff=[fruits,vegetables]
+stuff is now a NESTED LIST containing two lists
+
+final output of stuff if printed
+stuff=[["apple","mango","peach"],["potato","tomato","kale"]]
+
+
+**uSE cTRL+/ to comment highlighted code block
+
+To access a particular item from a nested list, sample code below
+
+fruits=["apples","oranges","mango","banana"]
+veggies=["kale","spinach","pumpkin","broccoli"]
+grocery=["milk","bread","eggs","flour","bakingsoda"]
+
+list_grocery=[fruits,veggies,grocery]
+#print(list_grocery)
+
+print(list_grocery[0][3])
+print(list_grocery[1][2])
+print(list_grocery[2][1])
+print(list_grocery[0][0])
+
+output:
+banana
+pumpkin
+bread
+apples
+
+NOTE: In python, every condition is checked linewise. So add exception messages as the starting condition. and in the else statement, add the remaining code.
