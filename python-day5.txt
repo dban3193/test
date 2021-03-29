@@ -1,0 +1,29 @@
+Day-5
+For loops,Range and Code Blocks
+
+For can stream through a list, one by one.
+for a in list:
+ print(a)
+
+
+sum(list) function is used to iterate through a list and add its components
+another variation would be sum(list,start)
+whatever value is start will be added to list sum at the end.
+
+max(list) function will give me the highest value in this list
+similarly min(list) is for lowest value
+
+range() is another function that could be used
+for number in range(1,11)
+considers 1 to 10(exclusive of 11)
+
+shuffle() function in random module helps you randomly shuffle contents of a list.
+random.shuffle(list)
+
+join() helps you club elements together without a for loop
+eg: to print abcde, you will need to iterate through a-e using for loop and then keep adding them to a defined string variable
+
+but if you use join() as below:
+str=""
+str1="".join(<listname>)
+print(str)->abcde
