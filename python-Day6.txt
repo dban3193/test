@@ -1,0 +1,21 @@
+Python-Day 6
+
+Functions,Code Blocks and While Loops
+
+Functions
+
+start with "def" which stands for define
+
+def <func_name>():
+   give logic
+
+
+call your function
+<func_name>(params if any)
+
+
+
+WHILE LOOP
+
+while something_is_true:
+   do this
