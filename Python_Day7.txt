@@ -1,0 +1,24 @@
+Day-7
+
+We will be building hangman project using for and while loops,if/else,lists,strings,range and modules
+
+basically there is a word whose letters need to be indentified. For every incorrect guess, hangman picture will get a body part added. You need to make sure that you identify the word before hangman picture completes.
+
+New things that helped.
+word.index(pass_letter)=gives index position for pass_letter in word
+
+IN 
+while "_" in list:
+	do stuff
+
+it will keep checking until "_" is part of list.Once it is replaced at all positions by other elements, the while loop quits
+
+NOTE: IN works similar way in for as well as if/else loops
+
+for an eexceptional situation where you lose before "_" gets addressed in the word, the above while loop is incorrect as a result of which you cant get out of loop to new game
+in such cases, we defined a variable called game_end=false at the start
+while game_end is False:
+	do stuff
+
+when lives become 0, negate the game_end value
+as a reult you will come out of the while loop that was created
