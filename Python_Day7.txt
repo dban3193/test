@@ -22,3 +22,11 @@ while game_end is False:
 
 when lives become 0, negate the game_end value
 as a reult you will come out of the while loop that was created
+
+
+in some cases you might want to clear screen after each input for multi-input situations
+if using replit, use below
+
+from replit import clear
+
+and then add clear() wherever necessary
