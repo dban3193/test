@@ -1,0 +1,60 @@
+Python-Day9
+
+
+Dictionaries and Nesting
+
+Dictionaries let you group together and tag related pieces together
+they occur in a key value pair format.
+{ key1:value1,key2:value2....}
+
+good practice:
+
+variable= {
+    key1:value1,
+     key2:value2
+      }
+
+1>to retrieve a key:value
+
+variable[key]> outputs the value
+
+2>to add a key:value pair to dictionary
+
+variable[key]=value
+
+****same command as above to be used if editing value of a predefined key
+
+3>to initialise a dictionary
+
+dic_name = {} unlike for list it is []
+
+4>to wipe out contents of a dictionary
+
+same as above, dic_name = {}
+
+5> for key in dictionary_name
+#to print key names
+           print(key)
+# to print values only
+           print(dictionary_name[key])
+
+
+Nested dictionary
+having lists/dictionaries inside a dictionary
+
+
+
+
+eg:
+travel_log = {
+  "France": {"cities":["paris","lille","dijon"],"total_visits":12},
+   "Germany":["Berlin","Hamburg","Stuttgart"]
+}
+Note we can have lists in dictionaries, dictionaries inside dictionary and dictionaries inside list
+
+To add a dictionary to a list,created a function
+def fun(pass the variables)
+  define a dictionary
+  dictionary_name[key]=variable
+  and finally,
+  list.append(dictionary)
