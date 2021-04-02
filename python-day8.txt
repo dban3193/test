@@ -1,0 +1,55 @@
+Day-8
+
+
+
+Functions with inputs
+
+def <func_name>(input variable/parameter):
+do something using input variable/parameter
+
+#call function as below:
+
+<func name>(argument/value of input variable)
+
+eg: 1>def greet_with(name, location):
+  print(f"Hello {name}!")
+  print(f"What's the weather like in {location}")
+
+greet_with("Debyani","Nagpur")
+
+
+The above is using positional arguements.
+
+
+2>def greet_with_key(name="Debyani",location="Nagpur"):
+  print(f"Hello {name}!")
+  print(f"What's the weather like in {location}")
+
+greet_with_key()
+
+The above is using keyword arguments
+
+*for rounding UP a number. For eg:if you need upper limit of any number between 5 and 6(including float numbers)
+math module is imported
+math.ceil(number)
+
+
+HEY
+3
+
+
+i=0
+a=h
+b=8
+b+p=11
+k
+
+i=1
+a=e
+b=5
+8
+h
+
+i=2
+a=y
+b=
