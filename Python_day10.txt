@@ -1,0 +1,24 @@
+Day-10 Python
+
+*Learnt about return statements used in functions which take input and return output
+*
+lower() to lowercase stuff
+upper() to uppercase stuff
+title() makes sure only first letter of a word is caps rest all are lower
+
+Also there are some boolean checks available like isupper(),islower() and istitle()
+
+*DocStrings are ways of documenting while we code, especially when we custom create something
+for eg: we created a function to titlelize the inputs, a custom function
+
+To enter a docstring, (basically what that function does)
+the first statement in your function is going to be starting with 3 ' and ending with another 3 '
+inside this you can define what your function does.
+finally outside the function when you invoke it. if you scroll cursor over the function, you can see the definition you gave it
+
+
+Print vs return statement
+
+if you wish to reuse an output in the same code, use return statements else print works fine
+
+Recursion is a function calling itself, with no input or output
