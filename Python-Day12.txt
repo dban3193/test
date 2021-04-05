@@ -1,0 +1,13 @@
+Day-12
+
+Namespaces= Local vs Global scope
+
+generally you are not allowed to modify a global variable inside a function.
+If you really want to do it, use "global" keyword in front of the variable nside function
+
+However it is not advisable 
+
+
+still if you wish to do that, use return statements for modifications
+
+global variables get a uppercase defintion as per python naming convention
