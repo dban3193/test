@@ -1,0 +1,12 @@
+Day-13
+
+Debugging: Process of removing bugs from codes
+
+Grace Hopper found first documented a bug, a actual moth stuck in a relay
+Some tips:
+1> describe the problem
+2>Reproduce the bug
+3>Play computer
+4>Fixing errors and watching for red underlines
+5>Print it(my favorite)
+6>Use a Debugger: eg: in Thonny, python Tutor(copy code and visualize execution)  etc.
