@@ -1,0 +1,13 @@
+Day-15
+
+Dowmloaded python 3.9.4
+Downloaded free version of Pycharm: IDE by JetBrains
+
+Pycharm provides 
+1>more space, 
+2>spell check, 
+3>behaves as a linter(follows python style rules of PEP8, and suggests the space and indentation guidelines), 
+4>keeps local history of your code. So that you can revert to it if something breaks
+5>View structure: you can check in structure pane and choose a particular variable/function definition you wish to edit.You dont have to scroll through complete code to find them
+6>Refactor rename: if a function has name "A" and is being used at other places in the code, right click on its first definition name, click on refactor>rename and change the name. This will be replicated across anywwhere that function was invoked
+ 
