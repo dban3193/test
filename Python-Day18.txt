@@ -1,0 +1,24 @@
+Day-18
+
+Turtle graphics(deepdive),tuples,importing modules
+
+from turtle import *
+gets everything but not a good practice
+
+import turtle as t
+treats module turtle and treating it as alias t
+
+for modules that cant be imported
+note: you can import only those modules that come as part of standaard python library
+
+for others, you need to install modules
+
+
+tuples
+3 elements, ordered in alist enclosed by circular brackets
+tuple elements cannot be modified i.e. immutable
+
+so if you still wish to modify tuple contents
+you need to pass it to a list
+eg: list(tuple_name)
+output will be tuple elements enclosed in square brackets

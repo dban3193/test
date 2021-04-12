@@ -1,0 +1,31 @@
+Day-17
+
+Constructors/init functions in python
+
+invoked everytime an object is created
+
+non-attribute based
+
+def __init__(self):
+
+
+with parameters
+
+def __init__(self,parameter1):
+   self.variable=parameter1
+
+The above is same as x.Classname(parameter1)
+
+You can also pass a default value in a constructor
+
+eg: for an Instagram account
+
+def __init__ (self,name,id):
+self.username=name
+self.userid=id
+self.followercount=0 > no need to define in constructor definition
+
+
+function attached to an object is called method.method needs to have first parameter called as "self"
+
+  
