@@ -1,0 +1,9 @@
+Day-19
+
+
+when a function uses another function as input, only the function name is passed as an input, excluding the parenthesis
+This in python is called as a higher order function, the one which takes input as another function
+
+
+multiple objects from same class are called as instances
+they can have different attributes(states)
