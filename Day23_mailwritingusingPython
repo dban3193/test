@@ -1,0 +1,24 @@
+# TODO: Create a letter using starting_letter.txt
+# for each name in invited_names.txt
+# Replace the [name] placeholder with the actual name.
+# Save the letters in the folder "ReadyToSend".
+
+
+
+
+
+with open("./Input/Letters/starting_letter.txt") as base:
+    # Create a letter using starting_letter.txt
+    custom = base.read()
+
+with open("./Input/Names/invited_names.txt") as name_list:
+    # readlines() converts invited_names.txt to a list of names called "names"
+    names = name_list.readlines()
+    for nam in names:
+        # strip new line component from the names list elements
+        x = nam.strip("\n")
+        # Replace the [name] placeholder with the actual name.
+        new_name = custom.replace("[name]", x)
+        with open(f"./Output/ReadyToSend/letter_for_{x}.txt", mode="w") as final_letter:
+            # Save the letters in the folder "ReadyToSend" with names custom to each person
+            final_letter.write(new_name)
