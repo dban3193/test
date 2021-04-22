@@ -1,0 +1,70 @@
+Day-23
+
+open() is used to open a text file and we can store this opned file in a variable
+eg: we have a file called me.txt
+
+content = open("me.txt")
+NOTE: if only text input is given to open(), default mode if read-only
+
+output = content.read()
+
+read function takes input of output returned from open function
+you can do stuff with "output", example , print(output)
+
+NOTE: open() consumes resources. Remember to manually close the file once work is complete to free resources
+
+content.close()
+
+
+However we might forget to close the file after work's complete, in such cases "with" keyword comes in handy
+
+with open("me.txt") as <somevariablename>:
+    output = <varabove>.read()
+    print(output)
+
+with keyword will handle everything. 
+
+******To write to a file
+
+first you need to change mode
+
+with open("me.txt",mode="w") as file:
+       file.write("new text")
+
+if you were to check me.txt contents now, it has fully been replaced by "new text"
+if you only wish to append, use mode="a"
+
+if a file wasnt present already, but mode="w" set, a new file will get created with the same name you used with "open"
+
+Note that the filename you pass in open command, you need to pass a relative path if the file is under same project, if not you need to mention absolute path of the file
+
+
+Some new functions:
+
+replace()
+It replaces a string with another string in a file/func etc.
+syntax:
+filename.replace(oldvalue,newvalue,<count>)
+count is the number of occureneces you wish to change
+
+readlines()
+This method returns a list containing each line in file as list item
+you can store it's output to a variable
+eg: new_list = <txtfilename>.readlines()
+
+NOTE: there is also a method called readline() which returns just one line from a file.
+Repeatedly runnning readline() method will return subsequent lines from the file.
+
+strip()
+It strips leading/trailing characters from a string
+syntax:
+string.strip(characters)
+NOTE: If characters are not provided, default is spaces
+eg: txt = ",,,,,rrttgg.....banana....rrr"
+       x = txt.strip(",.grt")
+
+print(x) will give banana
+
+
+writelines() method writes items of a list to a file, while write() only handles a single line
+syntax: <filename>.writelines(namelist)
